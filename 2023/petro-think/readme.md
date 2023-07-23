@@ -1,1 +1,3 @@
-Repository for my CS Capstone Project
+PetroThink
+
+TODO: upload todo list from Obsidian
