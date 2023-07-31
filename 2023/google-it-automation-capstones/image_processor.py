@@ -19,6 +19,7 @@ def flip_and_save(image_name):
 
 # Using the os module, the './images' directory is parsed, and file contents
 # are stored in a list.
+# A function call to flip_and_save passes the current file name for Image processing.
 def main():
     files = [f for f in os.listdir(img_path)]
     for f in files:
