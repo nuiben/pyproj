@@ -1,4 +1,4 @@
-# Google It Automation with Python
+# Google IT Automation with Python
 
 This repo serves as a collection of practical IT projects to solve problems similar to those experienced by IT professionals in the real world.
 
