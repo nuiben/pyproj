@@ -8,7 +8,7 @@ from reportlab.lib import colors
 import os, datetime, reports
 
 
-def generate_reports(attachment, title, paragraph):
+def generate_report(attachment, title, paragraph):
     styles = getSampleStyleSheet()
     report = SimpleDocTemplate(attachment)
     report_title = Paragraph(title, styles["h1"])

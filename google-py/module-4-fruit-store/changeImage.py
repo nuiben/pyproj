@@ -4,8 +4,8 @@ import os, requests
 site = "http://localhost/upload/"
 path = "./supplier-data/images/"
 
-for jpeg in os.listdir(path):
-    if jpeg.endswith('.jpeg'):
-        print('processing...' + jpeg)
-        with open(path+jpeg, 'rb') as image:
-            request = requests.post(site, files={'file': image})
+for image in os.listdir(path):
+    if image.endswith('.tiff'):
+        print('processing...' + image)
+        jpeg = Image.open(path+image)
+        jpeg.convert('RGB').resize((600, 400)).save(path+image[:-5]+'.jpeg', "JPEG")
