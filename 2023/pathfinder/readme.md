@@ -1,1 +1,1 @@
-WGU Pathfinding Assignment - Delivery Route Calculator for a Logistics Company
+Delivery Route Calculator for a Logistics Company
